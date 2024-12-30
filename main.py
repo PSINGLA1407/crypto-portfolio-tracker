@@ -15,5 +15,5 @@ def get_eth_balance(wallet_address, api_key):
     return response.json()
 
 wallet = "0xbE8860C3082C579D61A7D42c8E600e4f52b339a3"
-api_key = "4ZYT4JJ9Y57FKN96RMVMXAMQPNQK7JH3DR"
+api_key = ""
 print(get_eth_balance(wallet, api_key))
