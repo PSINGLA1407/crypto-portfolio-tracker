@@ -34,7 +34,7 @@ def fetch_eth_holdings(wallet, etherscan_api_key):
         "startblock": 0,
         "endblock": 99999999,
         "sort": "asc",
-        "apikey": "4ZYT4JJ9Y57FKN96RMVMXAMQPNQK7JH3DR",
+        "apikey": "",
     }
     response = requests.get(url, params=params)
     data = response.json()
